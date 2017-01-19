@@ -14,3 +14,10 @@
 $app->get('/', function () use ($app) {
     return $app->version();
 });
+<<<<<<< HEAD
+=======
+
+$app->get('/a/{name}', function ($name) use ($app) {
+    return 'Hello '. $name;
+});
+>>>>>>> da87e6f40b65a583e519fc84ae443078e9412bd9

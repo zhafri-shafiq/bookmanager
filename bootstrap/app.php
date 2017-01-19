@@ -23,9 +23,15 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
+<<<<<<< HEAD
 // $app->withFacades();
 
 // $app->withEloquent();
+=======
+ $app->withFacades();
+
+ $app->withEloquent();
+>>>>>>> da87e6f40b65a583e519fc84ae443078e9412bd9
 
 /*
 |--------------------------------------------------------------------------
